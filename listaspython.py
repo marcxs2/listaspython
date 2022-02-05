@@ -49,6 +49,10 @@ sumat=fun.reduce(lambda x,y:x+y,lista)
 
 listax2=list(map(lambda x:x*2,lista))
 
+# Divido entre dos todos los números de la lista y redondeo a dos decimales.
+
+listaentre2=list(map(lambda x:round(x/2,2),lista))
+
 # Ordeno mi lista de menor a mayor.
 
 listaordenada=sorted(lista)
