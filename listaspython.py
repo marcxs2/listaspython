@@ -48,3 +48,7 @@ sumat=fun.reduce(lambda x,y:x+y,lista)
 # Multiplico por dos todos los números de mi lista.
 
 listax2=list(map(lambda x:x*2,lista))
+
+# Ordeno mi lista de menor a mayor.
+
+listaordenada=sorted(lista)
