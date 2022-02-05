@@ -32,3 +32,7 @@ limpares=list(filter(lambda x: True if x%2!=0 else False,lista))
 # Guardo en una variable el número de pares que tiene mi lista.
 
 numpares=len(lpares)
+
+# Guardo en una variable el número de impares que tiene mi lista.
+
+numimpares=len(limpares)
