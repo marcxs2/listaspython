@@ -9,6 +9,10 @@ Created on Sat Feb  5 11:31:23 2022
 
 import random as rm
 
+# Importo la librería functools para sumar todos los números de mi lista.
+
+import functools as fun
+
 # Función que crea una lista con 20 números aleatorios del 1 al 200.
 
 def crearlista():
@@ -36,3 +40,7 @@ numpares=len(lpares)
 # Guardo en una variable el número de impares que tiene mi lista.
 
 numimpares=len(limpares)
+
+# Sumo todos los números que contiene mi lista.
+
+sumat=fun.reduce(lambda x,y:x+y,lista)
