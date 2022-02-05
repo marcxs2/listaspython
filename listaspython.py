@@ -44,3 +44,7 @@ numimpares=len(limpares)
 # Sumo todos los números que contiene mi lista.
 
 sumat=fun.reduce(lambda x,y:x+y,lista)
+
+# Multiplico por dos todos los números de mi lista.
+
+listax2=list(map(lambda x:x*2,lista))
