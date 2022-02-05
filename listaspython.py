@@ -28,3 +28,7 @@ lpares=list(filter(lambda x: True if x%2==0 else False,lista))
 # Obtengo los números impares de mi lista.
 
 limpares=list(filter(lambda x: True if x%2!=0 else False,lista))
+
+# Guardo en una variable el número de pares que tiene mi lista.
+
+numpares=len(lpares)
