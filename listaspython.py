@@ -20,3 +20,7 @@ def crearlista():
 # Llamo a la función que genera la lista.
 
 crearlista()
+
+# Obtengo los números pares de mi lista.
+
+lpares=list(filter(lambda x: True if x%2==0 else False,lista))
