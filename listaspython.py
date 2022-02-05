@@ -24,3 +24,7 @@ crearlista()
 # Obtengo los números pares de mi lista.
 
 lpares=list(filter(lambda x: True if x%2==0 else False,lista))
+
+# Obtengo los números impares de mi lista.
+
+limpares=list(filter(lambda x: True if x%2!=0 else False,lista))
